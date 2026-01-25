@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4">
+  <diagram name="Page-1" id="d8Z5vxUbz-HIuv22KiX9">
+    <mxGraphModel dx="1226" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UklU7avM0LBgLJzef_qn-20" edge="1" parent="1" source="UklU7avM0LBgLJzef_qn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UklU7avM0LBgLJzef_qn-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UklU7avM0LBgLJzef_qn-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="dev" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="UklU7avM0LBgLJzef_qn-8" edge="1" parent="1" source="UklU7avM0LBgLJzef_qn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="UklU7avM0LBgLJzef_qn-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UklU7avM0LBgLJzef_qn-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="git" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UklU7avM0LBgLJzef_qn-12" edge="1" parent="1" source="UklU7avM0LBgLJzef_qn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UklU7avM0LBgLJzef_qn-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UklU7avM0LBgLJzef_qn-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="jenkins" vertex="1">
+          <mxGeometry height="60" width="130" x="390" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-12" edge="1" parent="1" source="UklU7avM0LBgLJzef_qn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="o-YolXMmlavdrEs-gLKV-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="140" />
+              <mxPoint x="760" y="560" />
+              <mxPoint x="100" y="560" />
+            </Array>
+            <mxPoint x="790" y="550" as="sourcePoint" />
+            <mxPoint x="160" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-13" edge="1" parent="1" source="UklU7avM0LBgLJzef_qn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="o-YolXMmlavdrEs-gLKV-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="190" />
+              <mxPoint x="280" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UklU7avM0LBgLJzef_qn-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="sonarqube(code qulaity check)" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-14" edge="1" parent="1" source="UklU7avM0LBgLJzef_qn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UklU7avM0LBgLJzef_qn-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="320" />
+              <mxPoint x="280" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UklU7avM0LBgLJzef_qn-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="docker image build&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-16" edge="1" parent="1" source="UklU7avM0LBgLJzef_qn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UklU7avM0LBgLJzef_qn-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-25" edge="1" parent="1" source="UklU7avM0LBgLJzef_qn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="420" />
+              <mxPoint x="120" y="420" />
+            </Array>
+            <mxPoint x="100" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UklU7avM0LBgLJzef_qn-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="image vulnerability scan (trivy)" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-27" edge="1" parent="1" source="UklU7avM0LBgLJzef_qn-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="o-YolXMmlavdrEs-gLKV-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UklU7avM0LBgLJzef_qn-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="image push to registry(docker hub)" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-29" edge="1" parent="1" source="UklU7avM0LBgLJzef_qn-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UklU7avM0LBgLJzef_qn-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UklU7avM0LBgLJzef_qn-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="docker swarm" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="UklU7avM0LBgLJzef_qn-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="prometheus &amp;amp; grafana&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-15" edge="1" parent="1" source="o-YolXMmlavdrEs-gLKV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UklU7avM0LBgLJzef_qn-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-24" edge="1" parent="1" source="o-YolXMmlavdrEs-gLKV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="310" />
+            </Array>
+            <mxPoint x="280" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="trivy(secrets &amp;amp; misconfiguration check)" vertex="1">
+          <mxGeometry height="60" width="120" x="395" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-5" edge="1" parent="1" source="o-YolXMmlavdrEs-gLKV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="o-YolXMmlavdrEs-gLKV-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-23" edge="1" parent="1" source="o-YolXMmlavdrEs-gLKV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="310" />
+            </Array>
+            <mxPoint x="100" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="OWASP dependency-check" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-19" edge="1" parent="1" source="o-YolXMmlavdrEs-gLKV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UklU7avM0LBgLJzef_qn-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="Email Server" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-28" edge="1" parent="1" source="o-YolXMmlavdrEs-gLKV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UklU7avM0LBgLJzef_qn-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="430" />
+              <mxPoint x="280" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-YolXMmlavdrEs-gLKV-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="Ansible(Deploying machine configuration)" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
