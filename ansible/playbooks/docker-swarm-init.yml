@@ -1,0 +1,30 @@
+---
+- name: Initialize Docker Swarm on deployment machine
+  hosts: deploy
+  become: yes
+  gather_facts: yes
+
+  tasks:
+
+    - name: Check if Swarm is already initialized
+      command: >
+        docker info --format '{% raw %}{{.Swarm.LocalNodeState}}{% endraw %}'
+      register: swarm_state
+      changed_when: false
+      failed_when: false
+
+    - name: Initialize Docker Swarm
+      command: docker swarm init --advertise-addr {{ ansible_host }}
+      when: swarm_state.stdout != "active"
+
+    - name: Verify Swarm nodes
+      command: docker node ls
+      register: swarm_nodes
+      changed_when: false
+
+    - name: Display Swarm status
+      debug:
+        msg: |
+          Docker Swarm State : {{ swarm_state.stdout | default('unknown') }}
+          Swarm Nodes:
+          {{ swarm_nodes.stdout }}
