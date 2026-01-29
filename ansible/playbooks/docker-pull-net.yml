@@ -1,0 +1,32 @@
+- name: Pull images and create overlay network for Docker Swarm
+  hosts: deploy
+  become: true
+
+  vars:
+    overlay_network: secureflow-overlay
+    docker_images:
+      - "{{ dockerhub_user }}/secureflow-frontend:ci"
+      - "{{ dockerhub_user }}/secureflow-backend:ci"
+      - mongo:6.0
+
+  tasks:
+
+    - name: Ensure Docker is running
+      service:
+        name: docker
+        state: started
+        enabled: true
+
+    - name: Create overlay network if not present
+      command: >
+        docker network create
+        --driver overlay
+        --attachable
+        {{ overlay_network }}
+      register: network_create
+      failed_when: false
+      changed_when: "'already exists' not in network_create.stderr"
+
+    - name: Pull required Docker images
+      command: docker pull {{ item }}
+      loop: "{{ docker_images }}"
